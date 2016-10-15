@@ -1,0 +1,63 @@
+p.group .field ul {display:inline;}
+p.group .field ul li {display:inline; margin:0; padding:0;}
+p.group .field ul li img {vertical-align:middle;}
+#fieldrowCSC .field img {margin-top: -0.3em;}
+.group legend, .multi legend {display:block;}
+.fieldError fieldset legend span.label {color:#CC0000;}
+form fieldset.group #cctype.radio.noLabel label span {display:none;}
+form fieldset.group #cctype.radio.noLabel label {width:5em;}
+.secureTransaction p {text-align:right;}
+div#page.ccadd.merchant {width:760px;}
+div#page.ccadd.merchant div#header{background:transparent; border:none; min-height:100px; margin-bottom:25px; padding:0;}
+div#page.ccadd.merchant div#header h1 {color:#000000; font-size:2em;}
+div#page.ccadd.merchant div#content {background:transparent;}
+div#page.ccadd.merchant div#content #headline {width:auto;}
+div#page.ccadd.merchant div#content #headline h2 {border-bottom:1px solid #CCDDED; color:#326698;font-size:1.4em; margin-bottom:20px; padding-bottom:10px;}
+div#page.ccadd.merchant.wps div#content #headline h2 {border-bottom: none;}
+div#page.ccadd.merchant div#content #headline .secure {margin-top:-5px;}
+div#page.ccadd.merchant div#content #headline .bigImg {float:right; text-align:right; width:220px;}
+div#page.ccadd.merchant div#footerhps {padding-top:100px;color:#666666; font-size:0.9em;}
+#AddressFields {overflow: auto; height:1%;}
+#header.notab .brdcmb {margin:0; position:absolute; top:72px; width:760px;z-index:-1;}
+#header.notab .brdcmb table {margin:0;}
+#header.notab .brdcmb td {padding:0; line-height:1em;}
+.inactiveEmphasis {color:#999; font-size:0.91em; font-weight:bold;}
+.activeEmphasis {color:#336699; font-size:0.91em; font-weight:bold;}
+
+form div#cctype label {float:left; height:23px; width:37px; margin-right:1em; border:1px solid #ADC2D6;}
+form div#cctype label input, form div#cctype label span {display:block; position:absolute; top:0; left:-500em; width:1px; height:1px; overflow:hidden; text-indent:-9999em; line-height:0;}
+form div#cctype label.maestro {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_cc_maestro_37x23.gif) no-repeat top left;}
+form div#cctype label.visa {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_cc_visa_37x23.gif) no-repeat top left;}
+form div#cctype label.mc {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_cc_mc_37x23.gif) no-repeat top left;}
+form div#cctype label.disc {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_cc_disc_37x23.gif) no-repeat top left;}
+form div#cctype label.amex {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_cc_amex_37x23.gif) no-repeat top left;}
+form div#cctype label.cb {background:url(https://www.paypalobjects.com/fr_FR/FR/i/logo/logo_ccCB_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.cetelem {background:url(https://www.paypalobjects.com/en_US/FR/i/logo/logo_ccAurora_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.cetelem.ES {background:url(https://www.paypalobjects.com/en_US/ES/i/logo/logo_ccAurora_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.cetelem.IT {background:url(https://www.paypalobjects.com/en_US/IT/i/logo/logo_ccAurora_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.cofinoga {background:url(https://www.paypalobjects.com/en_US/FR/i/logo/logo_ccCofinoga_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.cofidis {background:url(https://www.paypalobjects.com/en_US/FR/i/logo/logo_ccCofidis_37wx23h.gif) no-repeat scroll left top;}
+form div#cctype label.electron {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_ccElectron.gif) no-repeat scroll left top;}
+form div#cctype label.postepay {background:url(https://www.paypalobjects.com/en_US/i/logo/logo_ccPostepay.gif) no-repeat scroll left top;}
+form div#cctype label.jcb {background:url(https://www.paypalobjects.com/en_US/JP/i/icon/logo_cc_jcb.gif) no-repeat scroll left top;}
+form div#cctype label.prepaid{background:url(https://www.paypalobjects.com/en_US/IT/i/logo/logo_PrepaidPayPalMC_37x23.gif) no-repeat scroll left top;}
+form div#cctype label.prepaid span, form div#cctype label.amex span{margin-top:-0.3em;}
+form fieldset.group #cctype.radio label {background-position:2em; border:none; margin:0.3em 0.2em 0.3em 0; padding-top:0.5em; width:49%; height:23px;}
+form div#cctype.radio label input{height:auto; left:0; line-height:1em; position:relative; text-indent:0; width:auto;}
+form div#cctype.radio label span {display:block;line-height:1.2em; height: auto; position: relative; text-indent:0; width:90px; left: 65px; top: -17px ; _left: 37px; _top: 1px
+}
+form div#cctype.radio {width:325px;}
+form div#cctype.selected label {opacity:0.13; filter:alpha(opacity=13);}
+form div#cctype.selected label.hilite {opacity:1; filter:alpha(opacity=100);}
+
+#fieldrowCCType fieldset.multi div.fields p.group {margin-right:0;}
+#fieldrowCCType fieldset.multi div.fields p.group span.field {display:inline;}
+
+.cuplink{display:block;}
+.labelService{white-space: normal;}
+
+#cardsSupportedIcon #xptCardIcons {float:left;}
+#cardsSupportedSelect {float:left; margin-left:10px;}
+
+#is_cvv_optional_row{margin-top:0;}
+#fieldrowCSC #fieldRowCSCInput{margin-bottom:0;}

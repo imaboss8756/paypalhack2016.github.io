@@ -1,0 +1,44 @@
+.fn {
+	padding: 0 1em 0 0;
+}
+.org {
+	padding: 0 1em 0 0;
+}
+.street-address {
+	padding: 0 1em 0 0;
+}
+.extended-address {
+	padding: 0 1em 0 0;
+}
+.locality {
+	padding: 0 .5em 0 0;
+}
+.region {
+	padding: 0 .5em 0 0;
+}
+.postal-code {
+	padding: 0 1em 0 0;
+	width: auto;
+}
+.country-name {
+	padding: 0 1em 0 0;
+}
+.locality_CA {
+	padding: 0 0.5em 0 0;
+}
+.region_CA {
+	padding: 0 1em 0 0;
+}
+.postal-code_CA {
+	padding: 0 1em 0 0;
+	width: auto;
+	display:inline;
+}
+
+.rtl .street-address, .rtl .extended-address, .rtl .locality, .rtl .region, .rtl .postal-code, .rtl .country-name {padding:0 0 0 1em;}
+
+.region_TW {padding: 0; margin-right:2px; float:left;}
+.postal-code_TW {padding:0;}
+
+
+

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /doc/
+Disallow: /doc/files/
+Disallow: /doc/view/
+Disallow: /Error/
+Disallow: /Gif/
